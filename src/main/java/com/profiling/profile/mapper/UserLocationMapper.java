@@ -1,8 +1,11 @@
 package com.profiling.profile.mapper;
 
+import org.springframework.stereotype.Component;
+
 import com.profiling.profile.dto.UserLocationDto;
 import com.profiling.profile.entity.User;
 
+@Component
 public class UserLocationMapper {
 
         public UserLocationDto toUserLocationDto(User user) {
